@@ -2,11 +2,11 @@
 # HW1
 ## W1L2 In-Class Activity
 
-1. How would you describe this game world in objects?
-      a. Flat-colored background
-      b. Player with bunny sprite
-      c. Plants
-      d. UI tracking number of seeds remaining + number of seeds planted
+1. How would you describe this game world in objects?  
+      a. Flat-colored background  
+      b. Player with bunny sprite  
+      c. Plants  
+      d. UI tracking number of seeds remaining + number of seeds planted  
 2. What attributes and actions do these objects have?
       a. Player
             i. Sprite (bunny)
