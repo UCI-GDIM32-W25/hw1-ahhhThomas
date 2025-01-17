@@ -28,8 +28,6 @@
            &emsp;ii. -1 number of seeds remaining  
 
 ## Devlog
-Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lecture 2 (Jan 9) in-class activity (above). If you did not attend and perform this activity, review the lecture slides and write your own plan for how you believe HW1 should be built. If your initially proposed plan turned out significantly different than the activity answers given by Prof Reid, you may want to note what was different. Then, write about how the plan you wrote in the break-down connects to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
-
 My initial proposed plan was covered all of the activity answers given by Professor Reid, although there were some differences in wording. My plan also included some notes I had while testing the HW1 build on Itch as I was under the impression that we would be building this game from scratch. For example, I noted that the background of the game was green, likely to be grass, and that the game had no boundary restrictions, meaning that the player/bunny could move off of the screen. 
 
 There were also some differences in how we noted down conditions and updates, namely checking if a player can place seeds, updating variables when a player plants a seed when the spacebar is hit and updating the UI when it happens. I believe my style of notes helped me when I was referring back to them during programming. For example, in my Update() function, I include an if statement to catch any spacebar inputs and call my PlantSeed() function only if the player still had seeds left (in other words, _numSeedsLeft > 0) otherwise nothing will be planted. This was easy to write out in code since my notes were set up in a condition and else format--like an if-statement. 
@@ -39,3 +37,8 @@ Similarly, in my PlantSeed() function, I knew I had to instantiate a plant objec
 ## Open-Source Assets
 If you added any other outside assets, list them here!
 - [Sprout Lands sprite asset pack](https://cupnooble.itch.io/sprout-lands-asset-pack) - character and item sprites
+
+## Prof comments
+I'm glad to hear that your notes were helpful for programming HW1! I'm definitely interested to hear if the HW2 break-down is also useful. Good job being specific in this Devlog and connecting how your high-level breakdown turned into code.
+
+You can remove the Devlog prompts from your README files. This will make it a lot easier for me to read. Your formatting looks good for the breakdown, but you might also want to check out the [README formatting guide here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in case your formatting wasn't on purpose.
